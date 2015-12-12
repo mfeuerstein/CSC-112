@@ -1,0 +1,11 @@
+Mike A Feuerstein 10 40
+Tom F Jones        1  1
+Bill H Adams      20 20
+Alexander Z Feuerstein 5 5
+William H Macy 100000 10
+Tim F Jones 20 50
+Tim B Jones 50 20
+Johnny B Good 500 300
+Who Am I 10 10
+I Am you 10 10
+Alex Adrien Anderson 1 1

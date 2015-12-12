@@ -1,0 +1,40 @@
+      Write a program, EmployeeTest.java, to calculate the gross pay for an employee,
+        using Example 2-3 above, the Scanner class, and an object of the Employee class. 
+        import java.util.Scanner;               // goes above class name 
+        Scanner scan = new Scanner(System.in);  // goes at top of main ( ) method 
+        Employee emp;
+        1.  Input the first, middle and last names of an employee
+            System.out.println("\nPlease enter the following information|\n");
+            System.out.print ("Enter the first name: ");
+            first = scan.next();
+        2.  Input the payRate and hoursWorked
+            System.out.print ("Enter the hourly rate of pay: ");
+            payRate = scan.nextDouble();
+        3.  Create an object of the Employee class
+        4.  Calculate the grossPay of the employee, allowing for overtime
+        5.  Display the employee's name, payRate, hoursWorked and grossPay
+        6.  Place all this in a loop, asking the question "Another Employee?" at the end of the loop
+            System.out.print ("\nGo Again? 1 - yes  2 - no: ");          
+            goAgain = scan.nextInt();
+			
+    b)  Modify 4-a above, so that: 
+        1.  Each Employee object goes into an array of such objects
+            Employee []  emp = new Employee[20];
+            // use count to keep track of each object in the array
+            emp[count] = new Employee(first, middle, last, payRate, hoursWorked); 
+        2.  Display the array of objects after entering is finished
+            for(i=0; i < count; i++)
+                System.out.println(emp[i]);
+        3.  Sort the array of objects
+            sort(emp,count);
+        4.  Display the array of sorted objects	
+		
+    c)  Modify 4-b above, to create EmployeeTest2.java, 
+        with input from a file, Employees.txt, using an editor such as Notepad:
+        1.  Create an array of Employee objects and 2 Scanner objects: fileScan and recordScan
+        2.  Enter information from an unsorted ASCII text file, Employees.txt, rather than the keyboard
+        3.  List the unsorted array of employees.
+        4.  Sort the array of objects, and list it.
+        5.  Save the sorted array, with the gross pay, onto a hew file, SortedEmployees.txt
+        6.  List the new file to see if the data was properly written using an editor such as Notepad.
+ 

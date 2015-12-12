@@ -1,0 +1,13 @@
+
+Mouse Event Description 
+-----------------------
+Mouse Pressed - mouse button is pressed 
+Mouse Released - mouse button is released 
+Mouse Clicked - mouse button is pressed down and released without moving mouse 
+Mouse Entered - mouse pointer is moved onto or over an object 
+Mouse Exited - mouse poinnter is moved off an object 
+
+Mouse Motion Event Description 
+------------------------------
+Mouse Moved - mouse is moved 
+Mouse Dragged - mouse is moved while the button is held down 

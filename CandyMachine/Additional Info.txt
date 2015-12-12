@@ -1,0 +1,12 @@
+Candy Machine Additional Modifications
+
+
+
+1.  Change all input to use the Scanner Class (D)
+
+2.  Give change back if it is due
+
+3.  Update the cashOnHand
+
+4.  Display the cashOnHand
+

@@ -1,0 +1,11 @@
+//tells system to wait X  milliseconds
+
+try {
+Thread.sleep(2000);
+} catch(InterruptedException e) {} 
+
+//pause until a key is pressed
+scan.nextLine();
+
+//popups
+http://www.javalobby.org/java/forums/t61165.html
